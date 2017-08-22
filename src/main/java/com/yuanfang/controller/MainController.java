@@ -69,13 +69,10 @@ public class MainController {
     @RequestMapping(value = "/branch")
     @ResponseBody
     public String branchTest(){
+        System.out.println(1111);
         return "branch";
     }
 
-    public void test(){
-
-        System.out.println(1111);
-    }
 
 
 }
