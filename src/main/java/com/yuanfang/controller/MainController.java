@@ -60,8 +60,11 @@ public class MainController {
         return service.queryPage(pn,ps);
     }
 
-
-
+    @RequestMapping(value = "/test")
+    @ResponseBody
+    public String gittest(){
+        return "bbb";
+    }
 
 
 
