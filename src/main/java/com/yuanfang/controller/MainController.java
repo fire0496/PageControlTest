@@ -72,8 +72,4 @@ public class MainController {
         System.out.println(1111);
         return "branch";
     }
-
-    public void test222222(){
-        System.out.println("测试冲突");
-    }
 }
