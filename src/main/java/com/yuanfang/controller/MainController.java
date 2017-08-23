@@ -65,7 +65,17 @@ public class MainController {
     public String gittest(){
         return "bbb";
     }
+    //编辑代码
+    @RequestMapping(value = "/branch")
+    @ResponseBody
+    public String branchTest(){
+        System.out.println(1111);
+        return "branch";
+    }
 
+    //规划局过奖过奖
 
-
+    public void test222222(){
+        System.out.println("测试冲突");
+    }
 }
